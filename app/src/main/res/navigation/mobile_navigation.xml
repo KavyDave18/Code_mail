@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kavydave.codemail.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_inbox"
+        android:name="com.kavydave.codemail.ui.home.Inbox"
+        android:label="@string/menu_inbox"
+        tools:layout="@layout/fragment_inbox" />
+
+    <fragment
+        android:id="@+id/nav_Outbox"
+        android:name="com.kavydave.codemail.ui.home.Outbox"
+        android:label="@string/menu_outbox"
+        tools:layout="@layout/fragment_outbox" />
+
+    <fragment
+        android:id="@+id/nav_trash"
+        android:name="com.kavydave.codemail.ui.home.trash_123"
+        android:label="@string/menu_trash"
+        tools:layout="@layout/fragment_trash_123" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.kavydave.codemail.ui.home.setteings"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/fragment_setteings" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.kavydave.codemail.ui.home.logout"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

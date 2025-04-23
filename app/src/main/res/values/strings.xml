@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CodeMail</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kavy Dave</string>
+    <string name="nav_header_subtitle">kavydave4922@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_switchaccount">Switch account</string>
+    <string name="action_addaccount">Add account</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_inbox">Inbox</string>
+    <string name="menu_outbox">OutBox</string>
+    <string name="menu_setting">Settings</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_trash">Trash</string>
+
+</resources>

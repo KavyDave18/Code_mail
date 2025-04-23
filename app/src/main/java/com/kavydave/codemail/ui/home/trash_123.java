@@ -1,0 +1,38 @@
+package com.kavydave.codemail.ui.home;
+
+import androidx.lifecycle.ViewModelProvider;
+
+import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import com.kavydave.codemail.R;
+
+public class trash_123 extends Fragment {
+
+    private Trash123ViewModel mViewModel;
+
+    public static trash_123 newInstance() {
+        return new trash_123();
+    }
+
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_trash_123, container, false);
+    }
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        mViewModel = new ViewModelProvider(this).get(Trash123ViewModel.class);
+        // TODO: Use the ViewModel
+    }
+
+}
